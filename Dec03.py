@@ -6,7 +6,7 @@ def read_file(txt_file):
 
 path = 'AoC/Dec03_Input.txt'
 data = read_file(path)
-special_chars = ['@', '#', '$', '%', '/', '*', '+']
+special_chars = ['@', '#', '$', '%', '/', '*', '+', '=', '&', '-']
 product_list = []
 
 def right_horizontal_check(symbol_location, line_schematics):
